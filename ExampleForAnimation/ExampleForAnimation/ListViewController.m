@@ -8,6 +8,9 @@
 
 #import "ListViewController.h"
 #import "FireViewController.h"
+#import "BaseAnimationController.h"
+#import "KeyframeAniController.h"
+#import "SpringAniController.h"
 
 @interface ListViewController ()
 @property (nonatomic, strong) NSMutableArray *dataSource;
@@ -18,7 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.dataSource = [NSMutableArray array];
-    [self.dataSource addObject:@"粒子动画"];
+    [self.dataSource addObjectsFromArray:@[@"基础动画",@"粒子动画",@"关键帧动画",@"弹性动画"]];
     
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
@@ -64,14 +67,34 @@
 {
     
     switch (indexPath.row) {
-        case 0:
+        case 1:
             {
                 FireViewController *vc = [[FireViewController alloc] init];
                 [self.navigationController pushViewController:vc animated:YES];
                 
             }
             break;
+        case 0:
+        {
+            BaseAnimationController *vc = [[BaseAnimationController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
             
+        }
+            break;
+        case 2:
+        {
+            KeyframeAniController *vc = [[KeyframeAniController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        }
+            break;
+        case 3:
+        {
+            SpringAniController *vc = [[SpringAniController alloc] init];
+            [self.navigationController pushViewController:vc animated:YES];
+            
+        }
+            break;
         default:
             break;
     }

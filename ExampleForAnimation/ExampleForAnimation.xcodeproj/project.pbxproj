@@ -14,6 +14,9 @@
 		E76F4AB71F9DDF9C00EB3533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E76F4AB61F9DDF9C00EB3533 /* main.m */; };
 		E76F4AC01F9DDFEF00EB3533 /* FireViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76F4ABF1F9DDFEF00EB3533 /* FireViewController.m */; };
 		E76F4AC31F9DE04E00EB3533 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E76F4AC21F9DE04E00EB3533 /* ListViewController.m */; };
+		E782AD9D1F9EE6F900508C64 /* BaseAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E782AD9C1F9EE6F900508C64 /* BaseAnimationController.m */; };
+		E782ADA01F9F168C00508C64 /* KeyframeAniController.m in Sources */ = {isa = PBXBuildFile; fileRef = E782AD9F1F9F168C00508C64 /* KeyframeAniController.m */; };
+		E782ADA31F9F1ACD00508C64 /* SpringAniController.m in Sources */ = {isa = PBXBuildFile; fileRef = E782ADA21F9F1ACD00508C64 /* SpringAniController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		E76F4ABF1F9DDFEF00EB3533 /* FireViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireViewController.m; sourceTree = "<group>"; };
 		E76F4AC11F9DE04E00EB3533 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
 		E76F4AC21F9DE04E00EB3533 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		E782AD9B1F9EE6F900508C64 /* BaseAnimationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseAnimationController.h; sourceTree = "<group>"; };
+		E782AD9C1F9EE6F900508C64 /* BaseAnimationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseAnimationController.m; sourceTree = "<group>"; };
+		E782AD9E1F9F168C00508C64 /* KeyframeAniController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyframeAniController.h; sourceTree = "<group>"; };
+		E782AD9F1F9F168C00508C64 /* KeyframeAniController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyframeAniController.m; sourceTree = "<group>"; };
+		E782ADA11F9F1ACD00508C64 /* SpringAniController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SpringAniController.h; sourceTree = "<group>"; };
+		E782ADA21F9F1ACD00508C64 /* SpringAniController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpringAniController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +74,12 @@
 				E76F4AA81F9DDF9C00EB3533 /* AppDelegate.m */,
 				E76F4AC11F9DE04E00EB3533 /* ListViewController.h */,
 				E76F4AC21F9DE04E00EB3533 /* ListViewController.m */,
+				E782AD9B1F9EE6F900508C64 /* BaseAnimationController.h */,
+				E782AD9C1F9EE6F900508C64 /* BaseAnimationController.m */,
+				E782AD9E1F9F168C00508C64 /* KeyframeAniController.h */,
+				E782AD9F1F9F168C00508C64 /* KeyframeAniController.m */,
+				E782ADA11F9F1ACD00508C64 /* SpringAniController.h */,
+				E782ADA21F9F1ACD00508C64 /* SpringAniController.m */,
 				E76F4ABD1F9DDFAA00EB3533 /* FireAnimation */,
 				E76F4AAD1F9DDF9C00EB3533 /* Main.storyboard */,
 				E76F4AB01F9DDF9C00EB3533 /* Assets.xcassets */,
@@ -155,8 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E782AD9D1F9EE6F900508C64 /* BaseAnimationController.m in Sources */,
 				E76F4AC01F9DDFEF00EB3533 /* FireViewController.m in Sources */,
+				E782ADA01F9F168C00508C64 /* KeyframeAniController.m in Sources */,
 				E76F4AB71F9DDF9C00EB3533 /* main.m in Sources */,
+				E782ADA31F9F1ACD00508C64 /* SpringAniController.m in Sources */,
 				E76F4AC31F9DE04E00EB3533 /* ListViewController.m in Sources */,
 				E76F4AA91F9DDF9C00EB3533 /* AppDelegate.m in Sources */,
 			);
